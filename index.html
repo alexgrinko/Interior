@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior lounge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header__wrapp">
+        <div class="container header__menu">
+            <div class="logo_wrapp">
+                <div class="logo_img">
+                    <img src="img/logo.svg">
+                </div>
+                <div>
+                    <p class="logo_title">Interior Lounge</p>
+                    <p class="logo_subtitle ">Дизайн общественных пространств</p>
+                </div>
+            </div>
+            <nav class="header__nav">
+                <div class="select_wrapp">
+                    <button class="header__item header__item_select">Наши проекты</button>
+                    <ul class="select_list">
+                        <li class="select_item" data-value="Tomazzi">Tomazzi Hall</li>
+                        <li class="select_item" data-value="Lounge">Lounge Hall</li>
+                        <li class="select_item" data-value="Astra">Astra Hall</li>
+                    </ul>
+                    <input type="text" value="" class="input_hiden">
+                </div>
+                <a class="header__item header__item_href" href="#">Контакты</a>
+                <a class="header__item header__item_button" href="#review">Оставить отзыв</a>
+            </nav>
+        </div>
+    </header>
+    <main class="page_main">
+        <section class="container">
+            <h1>Дизайн общественных интерьеров </h1>
+            <section>
+                <h2 class="text__page_brown">Кейс клубного дома Tomazzi Hall</h2>
+                <img class="img_index" src="img/tomazzi-hall.jpg" alt="Фотография клубного дома Tomazzi Hall">
+                <p class="text__page_brown">Создать объект, подобного которому в Санкт-Петербурге еще не было, — такую задачу поставил перед собой девелопер <span class="span__text_bold">Interior Lounge</span>, продумывая клубный дом <span class="span__text_underline">Tomazzi Hall</span>.
+                    Над экстерьером комплекса работала команда одного из крупнейших архитектурных Бюро России — «Студия 11» разработал концепцию, а мы оформили интерьер 10 парадных и 3 лаунж-зон.</p>
+                <p class="text_list">Заказчик знал команду, следил за нашей деятельностью, поэтому никого больше не рассматривал — поручил дизайн парадных и лаунж-зон нам. Основными моментами, на которые мы оринтировались, стали:</p>
+                <ul class="design_list">
+                    <li class="design_item">Источники вдохновения планировалось искать в строгой геометрии, модерне и духе «ревущих двадцатых»;</li>
+                    <li class="design_item">Необходимо было выдержать дорогой и одновременно элегантный стиль;</li>
+                    <li class="design_item">Ключевой элемент дизайна любого общественного пространства — удобство для жителей.</li>
+                </ul>
+                <div class="column_page column_img">
+                    <img src="img/stairs.jpg" alt="лесница в здании">
+                    <img src="img/facade.jpg" alt="фасад здания">
+                </div>
+            </section>
+            <section>
+                <h3 class="text__page_brown">Начало работы и источники вдохновения</h3>
+                <div class="column_page column_text">
+                    <p>Над экстерьером комплекса работала команда одного из крупнейших архитектурных бюро России — «Студия 11», а мы оформили интерьер 10 парадных и 3 лаунж-зон. </p>
+                    <p>Заказчик знал команду, следил за нашей деятельностью, поэтому никого больше не рассматривал — поручил дизайн парадных и лаунж-зон нам.</p>
+                </div>
+            </section>
+            <div class="resume">
+                <div class="resume__border">
+                    <p class="resume__text text__page_brown">«Нам хотелось поддержать внешнюю архитектурную концепцию, но внутри добавить что-то необычное. Сделать некое подобие матрешки, чтобы все время открывались новые смыслы и элементы».</p>
+                </div>
+            </div>
+        </section>
+        <section class="review" id="review">
+            <div class="container">
+                <div class="review_form">
+                    <h3 class="text__page_brown">Оставить отзыв</h3>
+                    <form>
+                        <textarea class="review_textaria" required placeholder="Расскажите, что вы думаете о проекте"></textarea>
+                        <input class="review_name" required type="text" placeholder="Ваше имя"> <br>
+                        <div class="submit_wrapp">
+                            <input class="review_submit" type="submit" value="Отправить">
+                            <p class="review_submit_text">Отзыв будет добавлен после проверки модератором</p>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <h3 class="visually-hidden">Комментарии</h3>
+                    <ul class="comments_list">
+                        <li class="comments_item">
+                            <img class="comments_ava" src="img/ava1.jpg">
+                            <div>
+                                <p class="comments_name">Иван Грачев</p>
+                                <p class="comments_text">Очень самобытный и необычный проект.</p>
+                            </div>
+                        </li>
+                        <li class="comments_item">
+                            <img class="comments_ava" src="img/ava2.jpg">
+                            <div>
+                                <p class="comments_name">Мария Рачинская</p>
+                                <p class="comments_text">Мне особенно понравилось решение лестничных клеток. Кружки вообще очень стильные!</p>
+                            </div>
+                        </li>
+                        <li class="comments_item">
+                            <img class="comments_ava" src="img/ava3.jpg">
+                            <div>
+                                <p class="comments_name">Светлана</p>
+                                <p class="comments_text">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты скоро будут не только в частных домах, но и в кафе, музеях, театрах. Я бы сходила!</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    </div>
+    <div class="thanks thanks_show">
+        Спасибо за ваш отзыв!
+    </div>
+    <div class="contacts contacts_none">
+        <p>Разработал:</p>
+        <a href="https://www.linkedin.com/in/alex-grinko-9071061a8/">Александр Гринько</a>
+    </div>
+    <div class="modal_background"></div>
+</body>
+<script src="main.js"></script>
+
+</html>
